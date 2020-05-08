@@ -126,7 +126,7 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.11.v20150529</version>
                 <configuration>
-                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
                     <webApp>
                         <contextPath>/</contextPath>
                     </webApp>
